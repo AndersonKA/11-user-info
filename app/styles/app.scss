@@ -41,25 +41,26 @@ $c-gray: #bfc5c6;
 }
 
 
+.card__bottom--stuff {
+  padding: 1rem;
+  border-bottom: 0.025rem solid $c-gray;
+}
 
 .card__bottom--name {
   padding: 1rem;
-  border-bottom: 0.025rem solid $c-gray;
 }
 
 .card__bottom--email {
   padding: 1rem;
-  border-bottom: 0.025rem solid $c-gray;
 }
 
 .card__bottom--phone {
   padding: 1rem;
-  border-bottom: 0.025rem solid $c-gray;
+
 }
 
 .card__bottom--location {
   padding: 1rem;
-  border-bottom: 0.025rem solid $c-gray;
 }
 
 .fa {
