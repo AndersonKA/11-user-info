@@ -1,2 +1,3 @@
 import 'whatwg-fetch';
-import './user-info';
+
+import './user';
