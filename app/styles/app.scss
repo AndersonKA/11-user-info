@@ -1,6 +1,69 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$c-green: #a7d076;
+$c-jamaica1: #0669f0;
+$c-jamaica2: #8deb85;
+$c-gray: #bfc5c6;
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
+
+.container {
+  margin: 1rem;
+}
+
+.card {
+  max-width: 20rem;
+}
+
+.card__top {
+  position: relative;
+  padding: 4rem;
+  background: $c-green;
+
+  &--arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+  }
+
+  &--pic {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    max-width: 6rem;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+}
+
+
+
+.card__bottom--name {
+  padding: 1rem;
+  border-bottom: 0.025rem solid $c-gray;
+}
+
+.card__bottom--email {
+  padding: 1rem;
+  border-bottom: 0.025rem solid $c-gray;
+}
+
+.card__bottom--phone {
+  padding: 1rem;
+  border-bottom: 0.025rem solid $c-gray;
+}
+
+.card__bottom--location {
+  padding: 1rem;
+  border-bottom: 0.025rem solid $c-gray;
+}
+
+.fa {
+  padding-right: 0.5rem;
+}
